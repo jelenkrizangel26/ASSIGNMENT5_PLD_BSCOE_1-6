@@ -32,14 +32,7 @@ def display_names(naMe1, naMe2, naMe3):
 lowest_nmbr = display_nmbr(Amnt1 = your_1stNO, Amnt2 = your_2ndNO, Amnt3 = your_3rdNO)
 names = display_names(naMe1 = name1 , naMe2 = name2, naMe3 = name3)
 
-def display_own(own1, own2, own3):
-    if own1 <= name1  <= your_1stNO:
-        return own1
-    if own2 <= name2 <= your_2ndNO:
-        return own2
-    if own3 <= name3 <= your_3rdNO:
-        return own2
 
-owner = display_own(own1 = name1, own2 = name2, own3 = name3)
 
-print(f"{owner} has the lowest input number which is {lowest_nmbr}.")
+
+print(f"{names} has the lowest input number which is {lowest_nmbr}.")
