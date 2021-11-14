@@ -33,4 +33,4 @@ elif grd >= 65 and grd <= 74:
 else:
     print("Your are either Incomplete (Inc), Withdrawn (W), or Dropped (D) ")
 
-print("Your grade is already recorded")
+print("Your grade is already recorded. Soar high and keep fighting!")
