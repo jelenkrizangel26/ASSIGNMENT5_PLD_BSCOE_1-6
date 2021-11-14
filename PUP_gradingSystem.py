@@ -32,3 +32,5 @@ elif grd >= 65 and grd <= 74:
     print("Failure! Your grade is 5.0 :)")
 else:
     print("Your are either Incomplete (Inc), Withdrawn (W), or Dropped (D) ")
+
+print("Your grade is already recorded")
