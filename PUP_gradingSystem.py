@@ -6,8 +6,13 @@
 # Grade/Mark: 1.75
 # Description: Very Good
 
+import math
+def round_half_up(n, decimals=0):
+    mltplier = 10 ** decimals
+    return math.floor(n*mltplier + 0.5) / mltplier
+
 grd_ = float(input("Grade: "))
-grd = round(grd_)
+grd = round_half_up(grd_)
 
 if grd >= 97 and grd <= 100:
     print("Excellent! Your grade is 1.0!")
@@ -15,7 +20,6 @@ elif grd >= 94 and grd <= 96:
     print("Excellent! Your grade is 1.25!")
 elif grd >= 91 and grd <= 93:
     print("Very Good! Your grade is 1.5!")
-
 elif grd >= 88 and grd <= 90:
     print("Very Good! Your grade is 1.75!")
 elif grd >= 85 and grd <= 87:
