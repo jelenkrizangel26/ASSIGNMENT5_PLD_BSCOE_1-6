@@ -9,7 +9,7 @@ your_1stNO = float(input("Please enter your first number: "))
 your_2ndNO = float(input("Please enter your second number: "))
 your_3rdNO = float(input("Please enter your third number: "))
 
-name1 = input("Name of 1st number owner: ")
+name1 = input("\nName of 1st number owner: ")
 name2 = input("Name of 2st number owner: ")
 name3 = input("Name of 3rd number owner: ")
 
